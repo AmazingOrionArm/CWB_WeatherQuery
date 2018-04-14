@@ -11,7 +11,7 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 import pandas as pd
 
-#plotly username and plotly
+#plotly username and api key
 plotly.tools.set_credentials_file(username='your_username', api_key='your_api_key')
 
 #CWB api key
