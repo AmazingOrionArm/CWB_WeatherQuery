@@ -24,7 +24,7 @@ for j in range(0,21):
     nameindex.append(pdata.records.locations[0]['location'][j]['locationName'])
 
 #use cityname to query index(which cityname include '台' must use '臺' to substitute.
-#In current state, cityname can only use Traditional Chinese to Query. English Query may upload in a short period
+#Cityname can only use Traditional Chinese to Query currently. English Query may upload in a short period
 def query(city):
     for i in range(0,21):
         if city==nameindex[i]:
